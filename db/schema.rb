@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2021_08_26_081534) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "name"
     t.string "title"
   end
 
